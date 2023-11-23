@@ -39,7 +39,7 @@ var tollFeeAmountTaxRule = new TollFeeAmountTaxRule(tollFeeAmounts);
 var tollFreeDaysOfWeekTaxRule = new TollFreeDaysOfWeekTaxRule(new List<DayOfWeek> { DayOfWeek.Saturday, DayOfWeek.Saturday });
 var tollFreeVehiclesTaxRule = new TollFreeVehiclesTaxRule(tollFreeVehicles);
 var tollFreeDateTaxRule = new TollFreeDateTaxRule(tollFreeDates);
-//add more rules heare if needed
+//add more rules here if needed
 
 var taxRules = new List<ITaxRule>
             {
